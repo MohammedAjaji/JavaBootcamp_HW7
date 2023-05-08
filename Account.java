@@ -54,6 +54,7 @@ public class Account {
             System.out.println("Transferring " + amount + " from " + name + " to " + another.name);
             another.balance = another.balance + amount;
             balance = balance - amount;
+            System.out.println(name + " balance now " + balance);
         }
         return balance;
     }
